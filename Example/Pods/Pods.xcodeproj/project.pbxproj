@@ -34,6 +34,9 @@
 		47AA4FF6298440C400425BE7 /* NSObject+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4FE3298440C400425BE7 /* NSObject+name.swift */; };
 		47AA4FF7298440C400425BE7 /* NSObject+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4FE3298440C400425BE7 /* NSObject+name.swift */; };
 		47AA4FF8298440C400425BE7 /* NSObject+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4FE3298440C400425BE7 /* NSObject+name.swift */; };
+		47AA4FFE2984457800425BE7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4FFD2984457800425BE7 /* AppConstants.swift */; };
+		47AA4FFF2984457800425BE7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4FFD2984457800425BE7 /* AppConstants.swift */; };
+		47AA50002984457800425BE7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AA4FFD2984457800425BE7 /* AppConstants.swift */; };
 		6037A05C783140DBD88CD97AFED7DDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		85F799C0E8A6EDDA2CC4941E9FB07928 /* SwiftExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9EF0996A240CE921EC73E3E01B653 /* SwiftExt-dummy.m */; };
 		91CA895B06C88D461E013D8116A5967D /* Pods-SwiftExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD14EE0E6521DBF023FEB8065FEBA /* Pods-SwiftExt_Example-dummy.m */; };
@@ -79,6 +82,7 @@
 		47AA4FE1298440C400425BE7 /* String+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ext.swift"; path = "../SwiftExt/Classes/Foundation/String+ext.swift"; sourceTree = "<group>"; };
 		47AA4FE2298440C400425BE7 /* Notification+Names.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Notification+Names.swift"; path = "../SwiftExt/Classes/Foundation/Notification+Names.swift"; sourceTree = "<group>"; };
 		47AA4FE3298440C400425BE7 /* NSObject+name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject+name.swift"; path = "../SwiftExt/Classes/Foundation/NSObject+name.swift"; sourceTree = "<group>"; };
+		47AA4FFD2984457800425BE7 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = ../SwiftExt/Classes/Foundation/AppConstants.swift; sourceTree = "<group>"; };
 		4D097BDB3003E8E530CB3E5E6D6246BE /* Pods-SwiftExt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftExt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		527B02929C504860E4FC571824BF370C /* SwiftExt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftExt; path = SwiftExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54986913D736777DCD7074EF2D4EBDC0 /* Pods-SwiftExt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftExt_Tests.modulemap"; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 		47AA4FC02984408F00425BE7 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				47AA4FFD2984457800425BE7 /* AppConstants.swift */,
 				47AA4FE0298440C400425BE7 /* CGPoint+ext.swift */,
 				47AA4FDF298440C400425BE7 /* GCD+Sugar.swift */,
 				47AA4FE2298440C400425BE7 /* Notification+Names.swift */,
@@ -427,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47AA4FE8298440C400425BE7 /* UserDefaults+ext.swift in Sources */,
+				47AA4FFF2984457800425BE7 /* AppConstants.swift in Sources */,
 				47AA4FEB298440C400425BE7 /* GCD+Sugar.swift in Sources */,
 				47AA4FF7298440C400425BE7 /* NSObject+name.swift in Sources */,
 				4182C92C2649DF60588ADE1A6321552C /* Pods-SwiftExt_Tests-dummy.m in Sources */,
@@ -442,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47AA4FE7298440C400425BE7 /* UserDefaults+ext.swift in Sources */,
+				47AA4FFE2984457800425BE7 /* AppConstants.swift in Sources */,
 				47AA4FEA298440C400425BE7 /* GCD+Sugar.swift in Sources */,
 				47AA4FF6298440C400425BE7 /* NSObject+name.swift in Sources */,
 				91CA895B06C88D461E013D8116A5967D /* Pods-SwiftExt_Example-dummy.m in Sources */,
@@ -465,6 +472,7 @@
 				47AA4FE6298440C400425BE7 /* UserDefaultPropertyWrappers.swift in Sources */,
 				47AA4FEF298440C400425BE7 /* CGPoint+ext.swift in Sources */,
 				85F799C0E8A6EDDA2CC4941E9FB07928 /* SwiftExt-dummy.m in Sources */,
+				47AA50002984457800425BE7 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
