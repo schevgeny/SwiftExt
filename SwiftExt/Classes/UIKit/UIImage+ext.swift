@@ -9,8 +9,8 @@ import UIKit
 
 extension UIImage {
     
-    static let circle = UIImage(systemName: "circle")
-    static let checkmarkCircleFill = UIImage(systemName: "checkmark.circle.fill")
+    //static let circle = UIImage(systemName: "circle")
+    //static let checkmarkCircleFill = UIImage(systemName: "checkmark.circle.fill")
     
     func getfitInSquareImage() -> UIImage {
         let sqareWidth = max(self.size.width, self.size.height)
